@@ -1,0 +1,26 @@
+theme = "dracula"
+
+[editor]
+line-number = "relative"
+middle-click-paste = true
+cursorline = true
+gutters = ["diagnostics", "spacer", "diff"]
+auto-completion = true
+auto-format = true
+true-color = true
+bufferline = "multiple"
+color-modes = true
+
+[editor.lsp]
+enable = true
+snippets = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+

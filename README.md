@@ -2,9 +2,11 @@
 
 AKA dotfiles
 
-This is a learning project, so very much a work in progress
+This is a learning project, so very much a **work in progress**
+
 
 #### Intended setup consists of, but are not limited to
+
 NixOS w/ home-manager, flakes and possibly some setup with hydra and/or nixops
   - bspwm or xmonad (most likely a setup where I can choose)
     - LightDM

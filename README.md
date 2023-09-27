@@ -29,6 +29,7 @@ This is a learning project, so very much a **work in progress**
   - ensure lib paths being exposed to the correct resources
   krita, aesprite, gimp & blender
   - wacom settings
+  - color profiles
   homelab sync -> proxmox LXC services (code server, hydra jobs, nixops)
   - move from ddwrt to pfsense vm main routing
 ```

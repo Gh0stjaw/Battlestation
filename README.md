@@ -1,46 +1,46 @@
-## Battlestation
+## Battlestation (dotfiles)
 
-AKA dotfiles
-
-!!! none of these files should be used atm !!!
+**!!! none of these files should be used atm !!!**
 
 This is a learning project, so very much a **work in progress** 
 
+**SHAMELESSLY** borrowing / snatching from these brilliant individuals:
 
-#### Intended setup consists of, but are not limited to
+>[hlissner](https://github.com/hlissner/dotfiles), [rxyhn](https://github.com/rxyhn/tokyo) & [misterio77](https://github.com/Misterio77/nix-config)
 
-```NixOS w/ home-manager, flakes and possibly some setup with hydra and/or nixops
-  bspwm or xmonad (most likely a setup where I can choose)
-    - LightDM
-    - rofi
-    - polybar
-  configs and bash scripts included -> user agnostic
-```
-```
-  zsh and fish, dependant on other vars
-  - wezterm and foot for the same reasons
-  - neovim w/ a simple LazyVim setup (faithful horse)
-    - and helix, cause it's fresh!
-  - tmux
-  - qutebrowser / chrome
-```
-```
-  separate profiles for devEnv (devShells), gfx (rendering, qual optimizations)
-  - ensure lib paths being exposed to the correct resources
-  krita, aesprite, gimp & blender
-  - wacom settings
-  - color profiles
-  homelab sync -> proxmox LXC services (code server, hydra jobs, nixops)
-  - move from ddwrt to pfsense vm main routing
-```
-```
-  Misc QOL apps includes
-  ncspot
-  - mpd
-  steam
-  - gamemode
-  - mangohud
-  discord
-  irc client
-  btop
-```
+<br>
+
+#### Intended setup consists of, but are not limited to:
+
+>#### Arch
+>```
+>- bspwm
+>- neovim w/ LazyVim (faithful horse)
+>- wezterm / xst / foot (kinda like em all for diff reasons)
+>- zsh w/ ohmyzsh
+>- tmux
+> - wacom settings
+>```
+  
+  
+>#### Nix Package Manager
+>```
+> - for efficient build environment(s)```
+
+> #### Profiles
+>```
+> - Separate profiles for devEnv (devShells), gfx (rendering, qol optimizations)
+> - Ensure lib paths => exposed to the correct compilers / environment.
+> ```
+
+>#### Misc QOL apps
+> ```
+> - Krita, aesprite, gimp & blender
+> - ncspot
+> - mpd
+> - steam
+> - gamemode
+> - mangohud
+> - discord
+> - irc client
+> - btop```

@@ -25,7 +25,8 @@ This is a learning project, so very much a **work in progress**
   
 >#### Nix Package Manager
 >```
-> - for efficient build environment(s)```
+> - for efficient build environment(s)
+>```
 
 > #### Profiles
 >```
@@ -43,4 +44,5 @@ This is a learning project, so very much a **work in progress**
 > - mangohud
 > - discord
 > - irc client
-> - btop```
+> - btop
+> ```
